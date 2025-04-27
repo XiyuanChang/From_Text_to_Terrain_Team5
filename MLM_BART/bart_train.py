@@ -1,4 +1,3 @@
-# land_large_dis_bart.py
 import argparse
 import json
 import random
@@ -37,7 +36,7 @@ def main(args):
 
     used_originals = set()
     discharger_data, landcover_data, label_data = [], [], []
-
+    #split into 3 mask categories
     target_per_category = len(dataset) // 3
     extra = len(dataset) - target_per_category * 3
 
