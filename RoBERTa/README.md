@@ -37,14 +37,14 @@ We use supervised fine-tuning (SFT) techniques on RoBERTa, with different config
 
 ## TRAINING SETTINGS
 
-Model: RoBERTa (pretrained)
-Training epochs: 8
-Batch size: 8 (for both training and evaluation per device)
-Learning rate: 3 × 10⁻⁵
-Weight decay: 0.01
-Warmup steps: 500
-Evaluation strategy: Evaluation performed at the end of each epoch
-Optimizer: AdamW optimizer with weight decay regularization
+- Model: RoBERTa (pretrained)
+- Training epochs: 8
+- Batch size: 8 (for both training and evaluation per device)
+- Learning rate: 3 × 10⁻⁵
+- Weight decay: 0.01
+- Warmup steps: 500
+- Evaluation strategy: Evaluation performed at the end of each epoch
+- Optimizer: AdamW optimizer with weight decay regularization
 
 All experiments were conducted under a consistent hyperparameter configuration to ensure fair comparisons.
 
