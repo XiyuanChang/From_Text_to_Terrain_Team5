@@ -6,6 +6,7 @@ This repository contains code for training and evaluating geospatial foundation 
 
 - `main.py`: Script for training the geospatial model with and without cross-modal attention.
 - `stats.py`: Script for performing a bootstrapped hypothesis test to statistically compare model performances.
+- `requirements.txt`: File listing required Python packages to set up the environment easily.
 
 ## Setup
 
