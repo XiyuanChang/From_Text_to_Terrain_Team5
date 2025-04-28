@@ -53,10 +53,10 @@ All experiments were conducted under a consistent hyperparameter configuration t
 ## EVALUATION METRICS
 The following metrics are used to evaluate model performance:
 
-Accuracy
-Precision (macro-averaged)
-Recall (macro-averaged)
-F1 Score (macro-averaged)
-Cohen’s Kappa (agreement adjusted for chance)
+- Accuracy
+- Precision (macro-averaged)
+- Recall (macro-averaged)
+- F1 Score (macro-averaged)
+- Cohen’s Kappa (agreement adjusted for chance)
 
 ---
