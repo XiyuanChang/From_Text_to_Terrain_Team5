@@ -23,15 +23,15 @@ We use supervised fine-tuning (SFT) techniques on RoBERTa, with different config
 
 1. Install required dependencies:
    
-      pip install -r requirements.txt
+      - pip install -r requirements.txt
    
 2. Prepare the datasets:
    
-      Place the right dataset from the /Datasets folder. Ensure the dataset file paths are correctly set inside pfas_roberta_k_folds.py.
+      - Place the right dataset from the /Datasets folder. Ensure the dataset file paths are correctly set inside pfas_roberta_k_folds.py.
 
 3. Fine-tune the model:
    
-      python pfas_roberta_k_folds.py
+      - python pfas_roberta_k_folds.py
 
  ---
 
