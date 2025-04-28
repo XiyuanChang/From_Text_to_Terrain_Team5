@@ -33,7 +33,7 @@ python bart_train.py \
     --model_save_path ./path_to_saving_models/ \
     --num_train_epochs your_training_epoch_number \
     --learning_rate your_lr \
-    --max_length max_length for tokenizer
+    --max_length max_length_for_tokenizer
 ```
 
 ### Command-Line Arguments
