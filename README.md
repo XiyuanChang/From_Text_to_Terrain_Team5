@@ -34,6 +34,7 @@ python bart_train.py \
     --num_train_epochs your_training_epoch_number \
     --learning_rate your_lr \
     --max_length max_length for tokenizer
+```
 
 ### Command-Line Arguments
 - `--wandb_key`:  Your Weights & Biases API key for experiment tracking. If not provided, wandb logging will be disabled.
@@ -56,7 +57,7 @@ python embedding_generation.py \
     --model_path /path/to/fine_tuned_bart_model \
     --dataset_path /path/to/masked_dataset.json \
     --output_path /path/to/save/emb_org.pt
-
+```
 ### Command-Line Arguments
 - `--model_path`: Path to the fine-tuned BART model directory.
 
