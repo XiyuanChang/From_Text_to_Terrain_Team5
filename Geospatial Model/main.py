@@ -1647,7 +1647,7 @@ def train_model2(model, train_loader, test_loader, criterion, optimizer, num_epo
     for epoch in range(num_epochs):
         # Initialize the model again
         model = TemporalViTModel(num_classes=3).to(device)  # Replace with your actual model class
-        model.load_state_dict(torch.load(os.path.join(save_dir, f'checkphinee_{epoch+1}.pth')))
+        model.load_state_dict(torch.load(os.path.join(save_dir, f'check_{epoch+1}.pth')))
         model.eval()  # Set model to evaluation mode
         model = model.to(device)  # Move model to the correct device (CPU or GPU)
 
