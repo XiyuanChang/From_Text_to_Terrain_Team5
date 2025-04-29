@@ -80,3 +80,7 @@ Note: Pre-built wheels only exist for specific CUDA and Torch combinations. Chec
 
 ```bash
 python train_model.py
+
+# Dataset Download
+You can download the dataset from [Google Drive here](https://drive.google.com/drive/folders/1jOHcUMuGB6C6E2VPK69w1dE294vy8Grf?usp=drive_link).
+
